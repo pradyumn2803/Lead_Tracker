@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+
+body {
+    padding: 10px;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(10, 129, 10);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+button:hover {
+    background-color: rgb(84, 185, 84);
+    transition: 0.4s;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top: 5px;
+}
+
+li a {
+    color: #3e8e41;
+}
